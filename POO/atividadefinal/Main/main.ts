@@ -1,7 +1,7 @@
 import { CartaoCredito } from "../ClassesPagamentos/CartaoCredito";
 import { Boleto } from "../ClassesPagamentos/Boleto";
 import { Pix } from "../ClassesPagamentos/Pix";
-import { processarPagamento } from "../ProcessoPagamento/processarPagamento";
+import { processarPagamento } from "../ClassesPagamentos/processarPagamento";
 import promptSync from 'prompt-sync';
 import chalk from 'chalk';
 

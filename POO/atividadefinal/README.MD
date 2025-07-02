@@ -70,7 +70,7 @@ Valor final com desconto: R$ 85.00 (Caso valor tenha sido 100)
    ```
 3. Execute o programa:
    ```
-   node Main/main.js
+   npx ts-node .\Main\main.ts
    ```
 
 ---

@@ -1,4 +1,4 @@
-import { FormaPagamento } from "../ClassesPagamentos/FormaPagamento";
+import { FormaPagamento } from "./FormaPagamento";
 import chalk from "chalk";
 export function processarPagamento(pagamento: FormaPagamento, valor: number): void {
     console.log(chalk.yellow.bold('-----------------------------'));
